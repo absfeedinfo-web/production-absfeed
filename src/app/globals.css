@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    .print-only {
+        display: block !important;
+    }
+    body {
+        height: auto !important;
+        overflow: visible !important;
+        background: white !important;
+    }
+    main {
+        overflow: visible !important;
+        height: auto !important;
+    }
+}

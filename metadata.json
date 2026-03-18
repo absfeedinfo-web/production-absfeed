@@ -1,0 +1,5 @@
+{
+  "name": " Production/Expenses",
+  "description": "A professional production management application for feed mills that includes automated product lookup by code, production sheet generation, and detailed raw material formula management.",
+  "requestFramePermissions": []
+}
